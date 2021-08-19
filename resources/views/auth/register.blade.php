@@ -47,6 +47,10 @@
                         <input type="password" id="registerRepeatPassword" class="form-control" />
                         <label class="form-label" for="registerRepeatPassword">Repeat password</label>
                       </div>
+                      <div class="form-outline mb-4">
+                        <input type="file" id="image" class="form-control" />
+                        <label class="form-label" for="image">Input image</label>
+                      </div>
                        <!-- Checkbox -->
             <div class="form-check d-flex justify-content-center mb-4">
                 <input

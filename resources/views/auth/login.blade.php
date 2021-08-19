@@ -83,7 +83,7 @@
               </div>
       
             <!-- Submit button -->
-            <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+            <button type="submit" class="btn btn-primary btn-block mb-4">Log in</button>
       
             <!-- Register buttons -->
             <div class="text-center">
@@ -134,7 +134,7 @@
             </div>
       
             <!-- Submit button -->
-            <button type="submit" class="btn btn-primary btn-block mb-3">Sign in</button>
+            <button type="submit" class="btn btn-primary btn-block mb-3">Log in</button>
           </form>
         </div>
       </div>
