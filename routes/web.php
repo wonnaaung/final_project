@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\AuthlayoutController;
+use App\Http\Controllers\HomePageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,11 +18,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+// authetication 
+Route::get("/login",[AuthlayoutController::class,"login"])->name("login");
 
-Route::get("/login",function(){
-    return view("auth.login");
-})->name("login");
+Route::get("/register",[AuthlayoutController::class,"register"])->name("register");
 
-Route::get("/register",function(){
-    return view("auth.register");
-})->name("register");
+Route::get("/",[HomePageController::class,"home"])->name("home");
