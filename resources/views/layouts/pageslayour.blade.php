@@ -19,10 +19,7 @@ rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
 rel="stylesheet"
 />
-<link
-href="{{ asset('public.page') }}"
-rel="stylesheet"
-/>
+<link rel="stylesheet" href="{{ asset("css/style.css") }}">
 </head>
 <body>
     <header>
