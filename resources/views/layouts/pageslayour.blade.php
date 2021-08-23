@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pages</title>
+    <title>Home Page</title>
     <link
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
 rel="stylesheet"
@@ -25,6 +25,7 @@ rel="stylesheet"
     <header>
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <a class="navbar-brand " href="#">Social App</a>
           <div class="container-fluid">
             <button
               class="navbar-toggler"
@@ -39,18 +40,33 @@ rel="stylesheet"
             </button>
             <div class="collapse navbar-collapse" id="navbarExample01">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class=""></li>
                 <li class="nav-item active">
                   <a class="nav-link" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link" href="#">Create Post</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link" href="#">Admin Control</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#">Contact Us</a>
                 </li>
+              </ul>
+              <ul class="navbar-nav ml-auto nav-flex-icons">
+                <li class="nav-item avatar dropdown">
+                <a class="nav-item avatar dropdown-toggle" id="navbarDropdownMenuLink-55" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                </a>
+                <div class="dropdown-menu dropdown-menu-lg-light- dropdown-secondary"
+                aria-labelledby="navbarDropdownMenuLink-55">
+                <a class="drodpown-item" href="#">User Profile</a>
+                <a class="dropdown-item" href="#">Log Out</a>
+
+                </div>
+              </li>
+
               </ul>
             </div>
           </div>
