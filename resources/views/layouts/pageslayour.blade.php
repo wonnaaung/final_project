@@ -42,7 +42,7 @@ rel="stylesheet"
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class=""></li>
                 <li class="nav-item active">
-                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" aria-current="page" href="{{ route('home') }}">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Create Post</a>
@@ -57,7 +57,7 @@ rel="stylesheet"
               <ul class="navbar-nav ml-auto nav-flex-icons">
                 <li class="nav-item avatar dropdown">
                 <a class="nav-item avatar dropdown-toggle" id="navbarDropdownMenuLink-55" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
+                aria-haspopup="true" aria-expanded="true">
                 </a>
                 <div class="dropdown-menu dropdown-menu-lg-light- dropdown-secondary"
                 aria-labelledby="navbarDropdownMenuLink-55">
