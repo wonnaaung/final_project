@@ -45,7 +45,7 @@ rel="stylesheet"
                   <a class="nav-link" aria-current="page" href="{{ route('home') }}">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Create Post</a>
+                  <a class="nav-link" href="{{ route('create') }}">Create Post</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Admin Control</a>

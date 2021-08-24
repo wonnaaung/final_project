@@ -13,5 +13,8 @@ class AuthlayoutController extends Controller
     function register(){
         return view("auth.register");
     }
+    function create(){
+        return view("auth.creat");
+    }
    
 }

@@ -24,3 +24,5 @@ Route::get("/login",[AuthlayoutController::class,"login"])->name("login");
 Route::get("/register",[AuthlayoutController::class,"register"])->name("register");
 
 Route::get("/",[HomePageController::class,"home"])->name("home");
+
+Route::get("/create",[AuthlayoutController::class,"create"])->name("create");
